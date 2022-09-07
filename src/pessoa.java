@@ -1,12 +1,4 @@
 public class pessoa {
-
-    /*
-     * Cria uma Classe Pessoa, contendo os atributos encapsulados, com seus
-     * respectivos seletores (getters) e modificadores (setters), e ainda o
-     * construtor padrão e pelo menos mais duas opções de construtores conforme sua
-     * percepção. Atributos: String nome; String endereço; String telefone;
-     */
-
     public String nome;
     public String endereco;
     public String telefone;
@@ -29,10 +21,6 @@ public class pessoa {
         this.endereco = endereco;
         this.telefone = telefone;
     }
-
-
-
-
     public String getNome() {
         return nome;
     }
@@ -56,8 +44,6 @@ public class pessoa {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-
-
 
 }
 
